@@ -1,0 +1,14 @@
+C:\Users\user\Desktop\Learn\C#\Thread\master-multithreading\bin\Debug\net8.0\MultiThreading.exe
+C:\Users\user\Desktop\Learn\C#\Thread\master-multithreading\bin\Debug\net8.0\MultiThreading.deps.json
+C:\Users\user\Desktop\Learn\C#\Thread\master-multithreading\bin\Debug\net8.0\MultiThreading.runtimeconfig.json
+C:\Users\user\Desktop\Learn\C#\Thread\master-multithreading\bin\Debug\net8.0\MultiThreading.dll
+C:\Users\user\Desktop\Learn\C#\Thread\master-multithreading\bin\Debug\net8.0\MultiThreading.pdb
+C:\Users\user\Desktop\Learn\C#\Thread\master-multithreading\obj\Debug\net8.0\MultiThreading.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\user\Desktop\Learn\C#\Thread\master-multithreading\obj\Debug\net8.0\MultiThreading.AssemblyInfoInputs.cache
+C:\Users\user\Desktop\Learn\C#\Thread\master-multithreading\obj\Debug\net8.0\MultiThreading.AssemblyInfo.cs
+C:\Users\user\Desktop\Learn\C#\Thread\master-multithreading\obj\Debug\net8.0\MultiThreading.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\Learn\C#\Thread\master-multithreading\obj\Debug\net8.0\MultiThreading.dll
+C:\Users\user\Desktop\Learn\C#\Thread\master-multithreading\obj\Debug\net8.0\refint\MultiThreading.dll
+C:\Users\user\Desktop\Learn\C#\Thread\master-multithreading\obj\Debug\net8.0\MultiThreading.pdb
+C:\Users\user\Desktop\Learn\C#\Thread\master-multithreading\obj\Debug\net8.0\MultiThreading.genruntimeconfig.cache
+C:\Users\user\Desktop\Learn\C#\Thread\master-multithreading\obj\Debug\net8.0\ref\MultiThreading.dll
