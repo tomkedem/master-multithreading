@@ -12,3 +12,4 @@ C:\Users\user\Desktop\Learn\C#\Thread\master-multithreading\obj\Debug\net8.0\ref
 C:\Users\user\Desktop\Learn\C#\Thread\master-multithreading\obj\Debug\net8.0\MultiThreading.pdb
 C:\Users\user\Desktop\Learn\C#\Thread\master-multithreading\obj\Debug\net8.0\MultiThreading.genruntimeconfig.cache
 C:\Users\user\Desktop\Learn\C#\Thread\master-multithreading\obj\Debug\net8.0\ref\MultiThreading.dll
+C:\Users\user\Desktop\Learn\C#\Thread\master-multithreading\obj\Debug\net8.0\MultiThreading.sourcelink.json

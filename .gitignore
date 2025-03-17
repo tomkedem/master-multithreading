@@ -1,0 +1,69 @@
+# Ignore build artifacts
+bin/
+obj/
+*.dll
+*.exe
+*.pdb
+*.log
+*.cache
+*.vs/
+.vscode/
+.vsconfig
+app.publish/
+TestResults/
+
+# Ignore user-specific files
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+*.ide
+
+# Ignore dependency caches
+node_modules/
+packages/
+NpmDebug.log
+yarn-error.log
+
+# Ignore JetBrains Rider & Resharper files
+.idea/
+*.sln.iml
+
+# Ignore Python-related (if AI processing involves Python)
+__pycache__/
+*.pyc
+*.pyo
+
+# Ignore logs and temporary files
+*.log
+logs/
+log/
+dump/
+*.bak
+*.tmp
+
+# Ignore Secrets (DO NOT COMMIT SECRETS!)
+secrets.json
+appsettings.Development.json
+appsettings.Local.json
+
+# Ignore database & AI training artifacts
+*.db
+*.sqlite
+*.h5
+*.onnx
+
+# Ignore AI Model Data (SafeAI-Redact)
+model_weights/
+*.ckpt
+*.pth
+*.tflite
+
+# Ignore dotnet user-secrets (if used)
+dotnet-user-secrets/
+
+# Ignore Docker & CI/CD artifacts (if used in merkaz-mesira)
+docker-compose.override.yml
+.env
+coverage/
+coverage.cobertura.xml

@@ -1,35 +1,18 @@
-﻿Queue<string> reqestQueue = new Queue<string>();
-Thread monitorThread = new Thread(MonitorQueue);
-monitorThread.Start();
+﻿int counter = 0;
+Thread t1 = new Thread(IncrementCounter);
+t1.Start();
+t1.Join();
 
-Console.WriteLine("Server is running. Type 'exit' to stop.");
-while (true)
+Thread t2 = new Thread(IncrementCounter);
+t2.Start();
+t2.Join();
+Console.WriteLine($"Final counter value is:{counter}");
+
+void IncrementCounter()
 {
-    string? input = Console.ReadLine();
-    if (input?.ToLower() == "exit")
+    for (int i = 0; i < 100000; i++)
     {
-        break;
+        counter++;
     }
-    reqestQueue.Enqueue(input);
-}
-
-void MonitorQueue()
-{
-    while (true)
-    {
-        if (reqestQueue.Count > 0)
-        {
-            string? input = reqestQueue.Dequeue();
-            Thread processingThread = new Thread(() => ProcessInput(input));
-            processingThread.Start();
-        }
-        Thread.Sleep(100);
-    }
-}   
-
-static void ProcessInput(string? input)
-{
-    // Simulate processing time
-    Thread.Sleep(2000);
-    Console.WriteLine($"Processed input: {input}");
+    counter++;
 }
