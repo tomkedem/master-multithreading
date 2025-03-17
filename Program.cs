@@ -13,6 +13,5 @@ void IncrementCounter()
     for (int i = 0; i < 100000; i++)
     {
         counter++;
-    }
-    counter++;
+    }   
 }
